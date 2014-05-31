@@ -1,0 +1,11 @@
+{
+  "name": "summberBodyEndPoint",
+  "description": "hello world test app",
+  "version": "0.0.1",
+  "main": app.js,
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "mongoose": "~3.8.4"
+  }
+}

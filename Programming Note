@@ -1,0 +1,9 @@
+Programming Note
+
+1. Change the Node end point to spit out both the name of the image and also the content of the image (Hence, we need to store the image name to the database also) Done
+
+2. Still need to work on the Male/Female selection. Which backend to run will be decided by which one they press.
+
+3. Now move on to the camera selection
+
+4. Connect with Heroku, so that the code on the iphone can access public API
