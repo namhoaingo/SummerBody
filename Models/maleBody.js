@@ -5,6 +5,6 @@ var maleBodySchema = mongoose.Schema({
 	name: String
 });
 
-var maleBodySchema = mongoose.model('maleBodySchema', maleBodySchema)
+var maleBodySchema = mongoose.model('maleBodySchema', maleBodySchema);
 
 module.exports = maleBodySchema;

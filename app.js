@@ -39,7 +39,7 @@ app.get("/", function(req,res){
 // The res.send() will give us plain JSON data. WHich we will use as the call back function now
 app.post("/uploadPicture", function(req, res){
 	// We need to endcode the picture to base 64
-	var maleBodySchemaUpload = new maleBodySchema;
+	var maleBodySchemaUpload = new maleBodySchema();
 	
 	var bitmap = fs.readFileSync(req.files.image.path);
 	var base64Image = new Buffer(bitmap).toString('base64');
